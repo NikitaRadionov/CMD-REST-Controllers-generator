@@ -8,10 +8,14 @@
 
 # Использование
 1. Генерация моделей
-`gencode gen-models --json-schema=C:\Users\User\Desktop\project\json_examples\engine-schema.json --out-dir=C:\Users\User\Desktop\schemas_dir`
+```
+gencode gen-models --json-schema=C:\Users\User\Desktop\project\json_examples\engine-schema.json --out-dir=C:\Users\User\Desktop\schemas_dir
+```
 
-2. Генерация кода REST контроллеров
-`gencode gen-rest --models=C:\Users\User\Desktop\schemas_dir\ --rest-routes=C:\Users\User\Desktop\rest_app`
+3. Генерация кода REST контроллеров
+```
+gencode gen-rest --models=C:\Users\User\Desktop\schemas_dir\ --rest-routes=C:\Users\User\Desktop\rest_app
+```
 
 # Заметки
 1. Для работы REST приложения нужно виртуальное окружение с собственным набором пакетов, которые указаны в файле `requirements_for_app.txt`
